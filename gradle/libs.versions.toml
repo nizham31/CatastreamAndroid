@@ -1,0 +1,39 @@
+[versions]
+compose = "2024.05.00"
+kotlin = "1.9.22"
+agp = "8.3.2"
+
+coreKtx = "1.16.0"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+material = "1.12.0"
+constraintlayout = "2.2.1"
+navigationFragmentKtx = "2.9.0"
+navigationUiKtx = "2.9.0"
+
+[libraries]
+androidx-core-ktx = { module = "androidx.core:core-ktx", version = "1.12.0" }
+androidx-appcompat = { module = "androidx.appcompat:appcompat", version = "1.6.1" }
+material = { module = "com.google.android.material:material", version = "1.11.0" }
+androidx-constraintlayout = { module = "androidx.constraintlayout:constraintlayout", version = "2.1.4" }
+androidx-navigation-fragment-ktx = { module = "androidx.navigation:navigation-fragment-ktx", version = "2.7.7" }
+androidx-navigation-ui-ktx = { module = "androidx.navigation:navigation-ui-ktx", version = "2.7.7" }
+
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+
+compose-bom = { module = "androidx.compose:compose-bom", version.ref = "compose" }
+compose-ui = { module = "androidx.compose.ui:ui" }
+compose-material3 = { module = "androidx.compose.material3:material3" }
+compose-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview" }
+compose-activity = { module = "androidx.activity:activity-compose", version = "1.8.2" }
+
+
+espresso-core = { module = "androidx.test.espresso:espresso-core", version = "3.5.1" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
