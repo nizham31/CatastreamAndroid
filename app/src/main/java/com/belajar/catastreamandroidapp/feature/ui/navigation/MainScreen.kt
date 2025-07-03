@@ -1,5 +1,3 @@
-// File: com.belajar.catastreamandroidapp.feature.ui.navigation.MainScreen.kt
-
 package com.belajar.catastreamandroidapp.feature.ui.navigation
 
 import android.util.Log
